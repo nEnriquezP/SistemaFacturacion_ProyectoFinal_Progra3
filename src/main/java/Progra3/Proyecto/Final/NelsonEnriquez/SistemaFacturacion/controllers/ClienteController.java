@@ -25,10 +25,10 @@ import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.bolsadeideas.springboot.app.models.entity.Cliente;
-import com.bolsadeideas.springboot.app.models.service.IClienteService;
-import com.bolsadeideas.springboot.app.models.service.IUploadFileService;
-import com.bolsadeideas.springboot.app.util.paginator.PageRender;
+import Progra3.Proyecto.Final.NelsonEnriquez.SistemaFacturacion.models.entity.Cliente;
+import Progra3.Proyecto.Final.NelsonEnriquez.SistemaFacturacion.models.service.IClienteService;
+import Progra3.Proyecto.Final.NelsonEnriquez.SistemaFacturacion.models.service.IUploadFileService;
+import Progra3.Proyecto.Final.NelsonEnriquez.SistemaFacturacion.util.paginator.PageRender;
 
 @Controller
 @SessionAttributes("cliente")
